@@ -35,6 +35,37 @@ html {
   }
 }
 
+.align-image {
+    margin: 0 auto;
+    width: 50% !important;
+    display: block;
+    transition: transform 200ms
+}
+
+.align-image:hover {
+    transition: transform 200ms;
+    transform: scale(1.1);
+}
+
+.has-border {
+    padding: 20px;
+    border: 1px solid #8A2409;
+}
+
+.has-border:nth-of-type(2n) {
+    border-left: 0;
+    border-right: 0;
+}
+
+.presentation {
+    height: 386px;
+    background-color: transparent;
+    background-image: url(../images/pizza-home.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .border-top {
   border-top: 1px solid #e5e5e5;
 }
@@ -68,4 +99,8 @@ body {
   width: 100%;
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
+}
+
+* {
+    box-sizing: border-box;
 }
