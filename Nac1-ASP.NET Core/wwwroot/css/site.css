@@ -7,9 +7,44 @@ a.navbar-brand {
   word-break: break-all;
 }
 
+.showcase {
+  max-width: 285px;
+  color: white;
+}
+
+.showcase p {
+  font-size: 16px;
+}
+
+.showcase span {
+  font-size: 22px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+ }
+
+.redirect-pedidos {
+  margin-top: 30px;
+  width: 50%;
+}
+
+.redirect {
+  margin-top: 30px !important;
+  width: 65%;
+}
+
 /* Provide sufficient contrast against white background */
 a {
-  color: #0366d6;
+    color: #0366d6;
+}
+
+.btn {
+    transition: transform 200ms ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.1);
 }
 
 .btn-primary {
@@ -42,6 +77,11 @@ html {
     transition: transform 200ms
 }
 
+.align-block {
+    display: block;
+    margin: 0 auto;
+}
+
 .align-image:hover {
     transition: transform 200ms;
     transform: scale(1.1);
@@ -49,7 +89,10 @@ html {
 
 .has-border {
     padding: 20px;
-    border: 1px solid #8A2409;
+    background: url(https://image.freepik.com/vetores-gratis/fundo-da-textura-da-parede-escura_1035-6845.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
 }
 
 .has-border:nth-of-type(2n) {
@@ -61,7 +104,7 @@ html {
     height: 386px;
     background-color: transparent;
     background-image: url(../images/pizza-home.jpg);
-    background-size: contain;
+    background-size: 100% 120%;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -90,10 +133,12 @@ html {
 }
 
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background: rgba(0,0,0,.7);
 }
 .footer {
+  display: none;
   position: absolute;
   bottom: 0;
   width: 100%;

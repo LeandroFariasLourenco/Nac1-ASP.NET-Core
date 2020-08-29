@@ -109,3 +109,6 @@ C:\Users\feleo\OneDrive\Área de Trabalho\estudos\faculdade\enterprice-applicati
 C:\Users\feleo\OneDrive\Área de Trabalho\estudos\faculdade\enterprice-application\Nac01\Nac1-ASP.NET Core\Nac1-ASP.NET Core\obj\Debug\netcoreapp3.1\Nac1-ASP.NET Core.pdb
 C:\Users\feleo\OneDrive\Área de Trabalho\estudos\faculdade\enterprice-application\Nac01\Nac1-ASP.NET Core\Nac1-ASP.NET Core\obj\Debug\netcoreapp3.1\Nac1-ASP.NET Core.genruntimeconfig.cache
 C:\Users\feleo\OneDrive\Área de Trabalho\estudos\faculdade\enterprice-application\Nac01\Nac1-ASP.NET Core\Nac1-ASP.NET Core\obj\Debug\netcoreapp3.1\Razor\Views\Cadastro\Index.cshtml.g.cs
+C:\Users\feleo\OneDrive\Área de Trabalho\estudos\faculdade\enterprice-application\Nac01\Nac1-ASP.NET Core\Nac1-ASP.NET Core\obj\Debug\netcoreapp3.1\Razor\Views\Sobre\Index.cshtml.g.cs
+C:\Users\feleo\OneDrive\Área de Trabalho\estudos\faculdade\enterprice-application\Nac01\Nac1-ASP.NET Core\Nac1-ASP.NET Core\obj\Debug\netcoreapp3.1\Razor\Views\Pedidos\Index.cshtml.g.cs
+C:\Users\feleo\OneDrive\Área de Trabalho\estudos\faculdade\enterprice-application\Nac01\Nac1-ASP.NET Core\Nac1-ASP.NET Core\obj\Debug\netcoreapp3.1\Razor\Views\Cardapio\Index.cshtml.g.cs

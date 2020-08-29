@@ -3,6 +3,19 @@
 }
 
 <div class="jumbotron presentation">
+    <div class="showcase">
+        <p>
+            <span>Hot Pizza - Fresh Pizza</span>
+            Já realizou seu pedido e quer acompanhar ele, ou apenas ver o seu histórico?
+            Saiba mais apertando aqui embaixo!
+            <br />
+            <a class="redirect-pedidos btn btn-primary"
+               asp-action="Index"
+               asp-controller="Pedidos">
+                Meus pedidos
+            </a>
+        </p>
+    </div>
 </div>
 
 <div class="container">
@@ -10,28 +23,48 @@
         <div class="col-md-4 has-border">
             <h2>Cardápio</h2>
             <p>De uma olhada em nosso cardápio repleto de opções para você e sua familía!</p>
-            <img
-                 class="img-thumbnail align-image"
-                 src="~/images/pizzaria-menu.jpg"
-                 />
+            <a asp-controller="Cardapio"
+               asp-action="Index">
+                <img class="img-thumbnail align-image"
+                     src="~/images/pizzaria-menu.jpg" />
+            </a>
+
+            <a class="redirect align-block btn btn-dark"
+               asp-action="Index"
+               asp-controller="Cardapio">
+                Conheça o cardápio!
+            </a>
         </div>
 
         <div class="col-md-4 has-border">
             <h2>Faça seu pedido</h2>
             <p>Não quer esperar? Siga para a tela de pedido e receba a pizza de sua escolha</p>
-            <img 
-                 class="img-thumbnail align-image"
-                 src="~/images/pizza-order.jpg" 
-                 />
+            <a asp-controller="Cadastro"
+               asp-action="Index">
+                <img class="img-thumbnail align-image"
+                     src="~/images/pizza-order.jpg" />
+            </a>
+
+            <a class="redirect align-block btn btn-dark"
+               asp-action="Index"
+               asp-controller="Cadastro">
+                Faça seu pedido
+            </a>
         </div>
 
         <div class="col-md-4 has-border">
             <h2>Sobre a Hot Pizza</h2>
             <p>Dê uma olhada por dentro dos bastidores da maior pizzaria de São Paulo</p>
-            <img 
-                 class="img-thumbnail align-image"
-                 src="~/images/pizzaria-about-us.jpg" 
-                 />
+            <a asp-controller="Sobre"
+               asp-action="Index">
+               <img class="img-thumbnail align-image"
+                src="~/images/pizzaria-about-us.jpg"/>
+            </a>
+            <a class="redirect align-block btn btn-dark"
+               asp-action="Index"
+               asp-controller="Sobre">
+                Conheça a Hot Pizza!
+            </a>
         </div>
     </div>
 </div>
