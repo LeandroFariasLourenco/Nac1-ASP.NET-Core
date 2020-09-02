@@ -7,12 +7,23 @@ namespace Nac1_ASP.NET_Core.Models
 {
     public class Pizza
     {
-        private string Sabor { get; set; }
+        public Pizza(int codigo, string sabor, List<string> ingredients, bool recheada, double preco)
+        {
+            Codigo = codigo;
+            Sabor = sabor;
+            Ingredients = ingredients;
+            Recheada = recheada;
+            Preco = preco;
+        }
 
-        private List<string> Ingredients { get; set; }
+        public int Codigo { get; set; }
 
-        private bool Recheada { get; set; }
+        public string Sabor { get; set; }
 
-        private double Preco { get; set; }
+        public List<string> Ingredients { get; set; }
+
+        public bool Recheada { get; set; }
+
+        public double Preco { get; set; }
     }
 }
