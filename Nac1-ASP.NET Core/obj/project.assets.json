@@ -6069,25 +6069,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\feleo\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Lucas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\feleo\\OneDrive\\Área de Trabalho\\estudos\\faculdade\\enterprice-application\\Nac1-ASP.NET-Core\\Nac1-ASP.NET Core\\Nac1-ASP.NET Core.csproj",
+      "projectUniqueName": "C:\\Users\\Lucas\\Documents\\FIAP\\NAC C#\\Nac1-ASP.NET-Core\\Nac1-ASP.NET Core\\Nac1-ASP.NET Core.csproj",
       "projectName": "Nac1-ASP.NET Core",
-      "projectPath": "C:\\Users\\feleo\\OneDrive\\Área de Trabalho\\estudos\\faculdade\\enterprice-application\\Nac1-ASP.NET-Core\\Nac1-ASP.NET Core\\Nac1-ASP.NET Core.csproj",
-      "packagesPath": "C:\\Users\\feleo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\feleo\\OneDrive\\Área de Trabalho\\estudos\\faculdade\\enterprice-application\\Nac1-ASP.NET-Core\\Nac1-ASP.NET Core\\obj\\",
+      "projectPath": "C:\\Users\\Lucas\\Documents\\FIAP\\NAC C#\\Nac1-ASP.NET-Core\\Nac1-ASP.NET Core\\Nac1-ASP.NET Core.csproj",
+      "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lucas\\Documents\\FIAP\\NAC C#\\Nac1-ASP.NET-Core\\Nac1-ASP.NET Core\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\feleo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

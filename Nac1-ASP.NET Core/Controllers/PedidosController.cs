@@ -9,10 +9,19 @@ namespace Nac1_ASP.NET_Core.Controllers
 {
     public class PedidosController : Controller
     {
-
+        public List<Pedido> _pedidos = new List<Pedido>();
+        int Codigo = 1;
         public IActionResult Index()
         {
             return View();
+        }
+
+        [HttpPost]
+        public void Registrar(Cliente cliente, Pizza pizza)
+        {
+            Pedido pedido = new Pedido(Codigo, cliente, pizza);
+            _pedidos.Add(pedido);
+            Codigo++;
         }
     }
 }
