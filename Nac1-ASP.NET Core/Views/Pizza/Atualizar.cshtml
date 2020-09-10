@@ -1,0 +1,46 @@
+﻿@model Pizza
+
+@{
+    ViewData["Title"] = "Atualizar";
+}
+
+<h1>Atualizar</h1>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <form method="post" asp-action="atualizarpizza" asp-controller="pizza">
+                    <input style="display: none;" type="hidden" asp-for="Codigo" />
+                    <div class="form-group">
+                        <label asp-for="Nome"></label>
+                        <input asp-for="Nome" required class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Ingredientes"></label>
+                        <input asp-for="Ingredientes" required class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Sabor"></label>
+                        <select asp-items="@Html.GetEnumSelectList<Sabores>()" asp-for="Sabor" class="custom-select" required>
+                            <option value="">Selecione o sabor</option>
+                        </select>
+                    </div>
+                    <div class="form-group align-content-start">
+                        <label asp-for="Recheada"></label>
+                        <input asp-for="Recheada" class="form-check" />
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Preco"></label>
+                        <input asp-for="Preco" required class="form-control" />
+                    </div>
+
+                    <button type="submit" class="btn">Enviar</button>
+                    <div class="retornar">
+                        <a asp-action="Index" asp-controller="Home">Retornar para a home</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

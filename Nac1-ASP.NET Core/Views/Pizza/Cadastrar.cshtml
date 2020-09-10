@@ -1,4 +1,5 @@
-﻿
+﻿@model Pizza
+
 @{
     ViewData["Title"] = "Index";
 }
@@ -67,6 +68,17 @@
             cursor: pointer;
         }
 </style>
+
+@{
+    if (TempData["msg"] != null)
+    {
+        <div class="alert alert-success">
+            <span class="alert-heading">@TempData["msg"]</span>
+            <a class="alert-info" asp-action="Listagem" asp-controller="Pizza">Visualizar cardápio</a>
+        </div>
+    }
+}
+
 <section>
     <div class="container">
         <div class="row">
@@ -79,24 +91,33 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <form method="post" action="/cadastro/registrar">
+                <form method="post" asp-action="registrarpizza" asp-controller="pizza">
                     <div class="form-group">
-                        <label for="Nome">Nome</label>
-                        <input type="text" name="nome" class="form-control" id="Nome" placeholder="Nome">
+                        <label asp-for="Nome"></label>
+                        <input asp-for="Nome" required class="form-control" />
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Endereco</label>
-                        <input type="text" name="endereco" class="form-control" placeholder="Avenida paulista,420">
+                        <label asp-for="Ingredientes"></label>
+                        <input asp-for="Ingredientes" required class="form-control" />
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputPassword1">Pizza</label>
-                        <select>
-                            <option>teste</option>
+                        <label asp-for="Sabor"></label>
+                        <select asp-items="@Html.GetEnumSelectList<Sabores>()" asp-for="Sabor" class="custom-select" required>
+                            <option value="">Selecione o sabor</option>
                         </select>
                     </div>
+                    <div class="form-group align-content-start">
+                        <label asp-for="Recheada"></label>
+                        <input asp-for="Recheada" class="form-check" />
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Preco"></label>
+                        <input asp-for="Preco" required class="form-control" />
+                    </div>
+
                     <button type="submit" class="btn">Enviar</button>
                     <div class="retornar">
-                        <a>Retornar para a tela de login</a>
+                        <a asp-action="Index" asp-controller="Home">Retornar para a home</a>
                     </div>
                 </form>
             </div>

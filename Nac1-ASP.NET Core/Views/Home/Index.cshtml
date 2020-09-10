@@ -4,17 +4,6 @@
 
 <div class="jumbotron presentation">
     <div class="showcase">
-        <p>
-            <span>Hot Pizza - Fresh Pizza</span>
-            Já realizou seu pedido e quer acompanhar ele, ou apenas ver o seu histórico?
-            Saiba mais apertando aqui embaixo!
-            <br />
-            <a class="redirect-pedidos btn btn-primary"
-               asp-action="Index"
-               asp-controller="Pedidos">
-                Meus pedidos
-            </a>
-        </p>
     </div>
 </div>
 
@@ -22,39 +11,39 @@
     <div class="row">
         <div class="col-md-4 has-border">
             <h2>Cardápio</h2>
-            <p>De uma olhada em nosso cardápio repleto de opções para você e sua familía!</p>
-            <a asp-controller="Cardapio"
-               asp-action="Index">
+            <p>Uma olhada no cardápio da sua pizzaria!</p>
+            <a asp-controller="Pizza"
+               asp-action="Listagem">
                 <img class="img-thumbnail align-image"
                      src="~/images/pizzaria-menu.jpg" />
             </a>
 
             <a class="redirect align-block btn btn-dark"
-               asp-action="Index"
-               asp-controller="Cardapio">
-                Conheça o cardápio!
+               asp-action="Listagem"
+               asp-controller="Pizza">
+                Veja o cardápio!
             </a>
         </div>
 
         <div class="col-md-4 has-border">
-            <h2>Faça seu pedido</h2>
-            <p>Não quer esperar? Siga para a tela de pedido e receba a pizza de sua escolha</p>
-            <a asp-controller="Cadastro"
-               asp-action="Index">
+            <h2>Cadastrar uma pizza</h2>
+            <p>Que tal oferecer mais opções aos seus clientes e cadastrar novas saborosas pizzas?</p>
+            <a asp-controller="Pizza"
+               asp-action="Cadastrar">
                 <img class="img-thumbnail align-image"
                      src="~/images/pizza-order.jpg" />
             </a>
 
             <a class="redirect align-block btn btn-dark"
-               asp-action="Index"
-               asp-controller="Cadastro">
-                Faça seu pedido
+               asp-action="Cadastrar"
+               asp-controller="Pizza">
+                Cadastrar uma nova pizza
             </a>
         </div>
 
         <div class="col-md-4 has-border">
-            <h2>Sobre a Hot Pizza</h2>
-            <p>Dê uma olhada por dentro dos bastidores da maior pizzaria de São Paulo</p>
+            <h2>Sobre a sua pizzaria</h2>
+            <p>Veja a descrição da sua pizzaria e como ela é vista por milhares de pessoas !</p>
             <a asp-controller="Sobre"
                asp-action="Index">
                 <img class="img-thumbnail align-image"

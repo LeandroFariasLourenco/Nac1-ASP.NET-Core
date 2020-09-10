@@ -320,11 +320,8 @@ C:\Users\feleo\OneDrive\Área de Trabalho\estudos\faculdade\enterprice-applicati
 C:\Users\feleo\OneDrive\Área de Trabalho\estudos\faculdade\enterprice-application\Nac1-ASP.NET-Core\Nac1-ASP.NET Core\obj\Debug\netcoreapp3.1\Nac1-ASP.NET Core.TagHelpers.input.cache
 C:\Users\feleo\OneDrive\Área de Trabalho\estudos\faculdade\enterprice-application\Nac1-ASP.NET-Core\Nac1-ASP.NET Core\obj\Debug\netcoreapp3.1\Nac1-ASP.NET Core.TagHelpers.output.cache
 C:\Users\feleo\OneDrive\Área de Trabalho\estudos\faculdade\enterprice-application\Nac1-ASP.NET-Core\Nac1-ASP.NET Core\obj\Debug\netcoreapp3.1\Nac1-ASP.NET Core.RazorCoreGenerate.cache
-C:\Users\feleo\OneDrive\Área de Trabalho\estudos\faculdade\enterprice-application\Nac1-ASP.NET-Core\Nac1-ASP.NET Core\obj\Debug\netcoreapp3.1\Razor\Views\Cadastro\Index.cshtml.g.cs
-C:\Users\feleo\OneDrive\Área de Trabalho\estudos\faculdade\enterprice-application\Nac1-ASP.NET-Core\Nac1-ASP.NET Core\obj\Debug\netcoreapp3.1\Razor\Views\Cardapio\Index.cshtml.g.cs
 C:\Users\feleo\OneDrive\Área de Trabalho\estudos\faculdade\enterprice-application\Nac1-ASP.NET-Core\Nac1-ASP.NET Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\feleo\OneDrive\Área de Trabalho\estudos\faculdade\enterprice-application\Nac1-ASP.NET-Core\Nac1-ASP.NET Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\Users\feleo\OneDrive\Área de Trabalho\estudos\faculdade\enterprice-application\Nac1-ASP.NET-Core\Nac1-ASP.NET Core\obj\Debug\netcoreapp3.1\Razor\Views\Pedidos\Index.cshtml.g.cs
 C:\Users\feleo\OneDrive\Área de Trabalho\estudos\faculdade\enterprice-application\Nac1-ASP.NET-Core\Nac1-ASP.NET Core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\feleo\OneDrive\Área de Trabalho\estudos\faculdade\enterprice-application\Nac1-ASP.NET-Core\Nac1-ASP.NET Core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\feleo\OneDrive\Área de Trabalho\estudos\faculdade\enterprice-application\Nac1-ASP.NET-Core\Nac1-ASP.NET Core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -454,3 +451,6 @@ C:\Users\Lucas\Documents\FIAP\NAC C#\Nac1-ASP.NET-Core\Nac1-ASP.NET Core\obj\Deb
 C:\Users\Lucas\Documents\FIAP\NAC C#\Nac1-ASP.NET-Core\Nac1-ASP.NET Core\obj\Debug\netcoreapp3.1\Nac1-ASP.NET Core.dll
 C:\Users\Lucas\Documents\FIAP\NAC C#\Nac1-ASP.NET-Core\Nac1-ASP.NET Core\obj\Debug\netcoreapp3.1\Nac1-ASP.NET Core.pdb
 C:\Users\Lucas\Documents\FIAP\NAC C#\Nac1-ASP.NET-Core\Nac1-ASP.NET Core\obj\Debug\netcoreapp3.1\Nac1-ASP.NET Core.genruntimeconfig.cache
+C:\Users\feleo\OneDrive\Área de Trabalho\estudos\faculdade\enterprice-application\Nac1-ASP.NET-Core\Nac1-ASP.NET Core\obj\Debug\netcoreapp3.1\Razor\Views\Pizza\Listagem.cshtml.g.cs
+C:\Users\feleo\OneDrive\Área de Trabalho\estudos\faculdade\enterprice-application\Nac1-ASP.NET-Core\Nac1-ASP.NET Core\obj\Debug\netcoreapp3.1\Razor\Views\Pizza\Cadastrar.cshtml.g.cs
+C:\Users\feleo\OneDrive\Área de Trabalho\estudos\faculdade\enterprice-application\Nac1-ASP.NET-Core\Nac1-ASP.NET Core\obj\Debug\netcoreapp3.1\Razor\Views\Pizza\Atualizar.cshtml.g.cs

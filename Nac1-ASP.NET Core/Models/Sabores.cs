@@ -5,10 +5,8 @@ using System.Threading.Tasks;
 
 namespace Nac1_ASP.NET_Core.Models
 {
-    public class Cliente
+    public enum Sabores
     {
-        public int Codigo { get; set; }
-        public string Nome { get; set; }
-        public string Email { get; set; }
+        Mussarela, Bacon, Catupiry, Frango, Queijo, Toscana
     }
 }
