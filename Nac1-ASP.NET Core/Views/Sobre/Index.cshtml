@@ -1,7 +1,25 @@
-﻿
-@{
-    ViewData["Title"] = "Index";
-}
+﻿@{ ViewData["Title"] = "Hot Pizza - Fresh Pizza"; }
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 has-border align-image">
+            <h2>Cardápio</h2>
+            <p>Uma olhada no cardápio da sua pizzaria!</p>
+            <a asp-controller="Pizza"
+               asp-action="Listagem">
+                <img class="img-thumbnail align-image"
+                     src="~/images/pizza-home.jpg" />
+            </a>
 
-<h1>Index</h1>
-
+            <a class="redirect align-block btn btn-dark"
+               asp-action="Listagem"
+               asp-controller="Pizza">
+                Veja o cardápio!
+            </a>
+        </div>
+        <h5 class="card-header bg-white">Nós trabalhamos para proporcionar a nossos clientes momentos deliciosos com sabores inesquecíveis, fazendo sempre uso de produtos de primeira qualidade e trabalhando com a máxima higiene, para que você possa saborear uma pizza rica em recheios deliciosos e com a verdadeira massa crocante.</h5>
+        <p class="text-light bg-secondary card-header">
+            E com a tecnologia de hoje podemos ouvir nossos clientes com sabores que não temos no nosso cardápio, incrivel né? Aqui você pode criar seu sabor e com sorte, poderá fazer parte do nosso cardápio.
+            Pizza Hot - A Pizza mais quente
+        </p>
+    </div>
+</div>

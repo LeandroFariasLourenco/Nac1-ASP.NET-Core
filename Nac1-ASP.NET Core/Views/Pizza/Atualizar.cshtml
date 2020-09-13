@@ -4,38 +4,38 @@
     ViewData["Title"] = "Atualizar";
 }
 
-<h1>Atualizar</h1>
+<h1 class="text-white">Atualizar</h1>
 
 <section>
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <form method="post" asp-action="atualizarpizza" asp-controller="pizza">
+                <form method="post" class="bg-dark p-xl-5" asp-action="atualizarpizza" asp-controller="pizza">
                     <input style="display: none;" type="hidden" asp-for="Codigo" />
                     <div class="form-group">
-                        <label asp-for="Nome"></label>
+                        <label asp-for="Nome" class="font-weight-bold text-white"></label>
                         <input asp-for="Nome" required class="form-control" />
                     </div>
                     <div class="form-group">
-                        <label asp-for="Ingredientes"></label>
+                        <label asp-for="Ingredientes" class="font-weight-bold text-white"></label>
                         <input asp-for="Ingredientes" required class="form-control" />
                     </div>
                     <div class="form-group">
-                        <label asp-for="Sabor"></label>
+                        <label asp-for="Sabor" class="font-weight-bold text-white"></label>
                         <select asp-items="@Html.GetEnumSelectList<Sabores>()" asp-for="Sabor" class="custom-select" required>
                             <option value="">Selecione o sabor</option>
                         </select>
                     </div>
                     <div class="form-group align-content-start">
-                        <label asp-for="Recheada"></label>
+                        <label asp-for="Recheada" class="font-weight-bold text-white"></label>
                         <input asp-for="Recheada" class="form-check" />
                     </div>
                     <div class="form-group">
-                        <label asp-for="Preco"></label>
+                        <label asp-for="Preco" class="font-weight-bold text-white"></label>
                         <input asp-for="Preco" required class="form-control" />
                     </div>
 
-                    <button type="submit" class="btn">Enviar</button>
+                    <button type="submit" class="btn btn-primary btn-success">Enviar</button>
                     <div class="retornar">
                         <a asp-action="Index" asp-controller="Home">Retornar para a home</a>
                     </div>

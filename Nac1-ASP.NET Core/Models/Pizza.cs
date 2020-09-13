@@ -23,7 +23,7 @@ namespace Nac1_ASP.NET_Core.Models
         [Display(Name = "Sua pizza é recheada?")]
         public bool Recheada { get; set; }
 
-        [Display(Name = "Digite o preço da sua pizza")]
+        [Display(Name = "Digite o preço da sua pizza (separe casas decimais com vírgulas)")]
         public float Preco { get; set; }
     }
 }

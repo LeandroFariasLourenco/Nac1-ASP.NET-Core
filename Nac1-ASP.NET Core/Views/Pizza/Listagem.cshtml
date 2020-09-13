@@ -22,22 +22,24 @@
     }
 }
 
-<h1>Cardápio de sua pizzaria</h1>
+<h1 class="text-white">Cardápio de sua pizzaria</h1>
 @{
     if (Model.Count != 0)
     {
-        <table>
-            <tr>
-                <th>Nome</th>
-                <th>Sabor</th>
-                <th>Ingredientes</th>
-                <th>É recheada?</th>
-                <th>Preço</th>
+        <table class="table">
+            <tr class="text-white thead-light">
+                <th class="table-primary">Nome</th>
+                <th class="table-primary">Sabor</th>
+                <th class="table-primary">Ingredientes</th>
+                <th class="table-primary">É recheada?</th>
+                <th class="table-primary">Preço</th>
+                <th class="table-primary">Opções</th>
+                <th class="table-primary">Remove</th>
             </tr>
             @foreach (var pizza in Model)
             {
-                <tr>
-                    <td>@pizza.Nome</td>
+                <tr class="table-info">
+                    <td class="">@pizza.Nome</td>
                     <td>@pizza.Sabor</td>
                     <td>@pizza.Ingredientes</td>
                     <td>@(pizza.Recheada ? "Sim" : "Não")</td>
@@ -53,7 +55,7 @@
                         <a asp-action="ApagarPizza"
                            asp-controller="Pizza"
                            asp-route-id="@pizza.Codigo">
-                            <i class="btn-danger" style="padding: 5px; display: flex">
+                            <i class="btn-danger" style="padding: 5px; display: flex; justify-content: center;">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#fff" viewBox="0 0 24 24">
                                     <path d="M3 8v16h18v-16h-18zm5 12c0
                                   .552-.448 1-1 1s-1-.448-1-1v-8c0-.552.448-1
