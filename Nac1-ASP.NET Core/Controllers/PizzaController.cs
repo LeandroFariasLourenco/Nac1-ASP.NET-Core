@@ -34,6 +34,14 @@ namespace Nac1_ASP.NET_Core.Controllers
         }
 
         [HttpPost]
+        public IActionResult Listagem(Sabores? sabor)
+        {
+            if (sabor.ToString() == "") return View(_pizzas);
+
+            return View(_pizzas.FindAll(p => p.Sabor == sabor));
+        }
+
+        [HttpPost]
         public IActionResult AtualizarPizza(Pizza pizza)
         {
             var pizzaParaAtualizar = _pizzas.First(p => p.Codigo == pizza.Codigo);

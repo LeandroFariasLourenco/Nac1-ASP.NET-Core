@@ -23,6 +23,19 @@
 }
 
 <h1 class="text-white">Cardápio de sua pizzaria</h1>
+
+<form class="form-control" style="height: auto;" asp-action="listagem" asp-controller="pizza">
+    <div class="form-group">
+        <label style="display: block; width: 100%">Selecione a opção que deseja filtrar</label>
+        <select class="custom-select" style="width: 60%" name="sabor" asp-items="@Html.GetEnumSelectList<Sabores>()">
+            <option value="">Todas</option>
+        </select>
+        <button class="btn btn-success">
+            Pesquisar
+        </button>
+    </div>
+</form>
+
 @{
     if (Model.Count != 0)
     {
